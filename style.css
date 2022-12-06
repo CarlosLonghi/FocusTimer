@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family-timer: 'Roboto', sans-serif;
+  --text-color-timer: #ffffff;
+
+  --base-color: 194;
+  --bg-color-application: hsl(var(--base-color), 6%, 7%);
+  --bg-color-controls: hsla(var(--base-color), 100%, 63%, 0.13);
+
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--bg-color-application);
+  color: var(--text-color-timer);
+  font-family: var(--font-family-timer);
+
+  display: grid;
+  min-height: 100vh;
+}
+
+.hide {
+  display: none;
+}
+
+main {
+  align-self: end;
+  justify-self: center;
+}
+
+#timer {
+  font-size: clamp(4rem, 5rem + 8vw, 8.8rem);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button img {
+  width: clamp(3.2rem, 2rem + 10vw, 6.4rem);
+}
+
+#controls {
+  display: flex;
+  justify-content: center;
+  gap: 3.2rem;
+
+  background-color: var(--bg-color-controls);
+  border-radius: 99rem;
+
+  padding: clamp(1rem, 1rem + 2vw, 2.2rem) clamp(1rem, 0.5rem + 1vw, 4rem);
+}
+
+footer {
+  justify-self: end;
+  align-self: end;
+  padding: 0 4rem 3.2rem 0;
+}
