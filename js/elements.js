@@ -19,15 +19,3 @@ export {
   minutesDisplay,
   secondsDisplay
 }
-
-// exportando variáveis de forma estruturada, para que possa ser  desestruturada no index.js. 
-// export const elements = {
-//   playButton,
-//   pauseButton,
-//   stopButton,
-//   clockButton,
-//   soundOnButton,
-//   soundOffButton,
-//   minutesDisplay,
-//   secondsDisplay
-// }
