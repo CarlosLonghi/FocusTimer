@@ -55,6 +55,7 @@ export default function Timer({
   }
 
   return {
+    //short hand
     countDown,
     reset,
     updateDisplay,
@@ -62,7 +63,3 @@ export default function Timer({
     pause
   }
 }
-//short hand de 'countDown: countDown' é igual á: countDown (pode ser usado quando o nome do objeto e o valor passado for o mesmo.)
-
-// NAMED EXPORT
-// export { resetTimer, countDown, updateDisplay }
