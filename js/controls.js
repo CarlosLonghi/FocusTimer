@@ -1,5 +1,4 @@
 // FACTORY: É uma função que vai retornar um objeto
-// DEFAULT EXPORT: export default resetControls
 export default function Controls({
   playButton,
   pauseButton,
